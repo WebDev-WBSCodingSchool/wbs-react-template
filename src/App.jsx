@@ -31,13 +31,8 @@ const App = () => {
           />
         </div>
       </div>
-      <div className='card bg-base-300 w-full lg:w-2/3'>
-        <div className='card-body'>
-          <p>This is a template with React 19, TailwindCSS 4, and DaisyUI 5</p>
-        </div>
-      </div>
       <h3 className='text-2xl my-2'>Clone into directory</h3>
-      <div className='mockup-code bg-base-300 w-full lg:w-2/3'>
+      <div className='mockup-code w-full lg:w-2/3'>
         <pre data-prefix='$'>
           <code>
             git clone git@github.com:WebDev-WBSCodingSchool/wbs-react-template.git &lt;directory&gt;
@@ -45,13 +40,13 @@ const App = () => {
         </pre>
       </div>
       <h3 className='text-2xl my-2'>Install</h3>
-      <div className='mockup-code bg-base-300 w-full lg:w-2/3'>
+      <div className='mockup-code w-full lg:w-2/3'>
         <pre data-prefix='$'>
           <code>cd &lt;directory&gt; && npm i</code>
         </pre>
       </div>
       <h3 className='text-2xl my-2'>Code</h3>
-      <div className='mockup-code bg-base-300 w-full lg:w-2/3'>
+      <div className='mockup-code w-full lg:w-2/3'>
         <pre data-prefix='$'>
           <code>npm run dev</code>
         </pre>
